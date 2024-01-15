@@ -10,7 +10,7 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         Mes Projets
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mb-8">
         <ProjectCard
           src="/NextWebsite.png"
           title="Application Mobile de Lecture Biblique"
@@ -26,10 +26,23 @@ const Projects = () => {
           title="Portfolio"
           description="Un Portfolio en utilisant Next.js Tailwindcss , next Auth, shadcn ui,  prisma. qui permet de mettre en evidance mes comptence et mes experiences."
         />
+      </div>
+      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+        <ProjectCard
+          src="/g-stock.gif"
+          title="Luban Workshop"
+          description="Une plateforme de gestion des stock , des materiels et de matiers d ouevres pour Afrik Lonnya . develepper en java spring boot et angular "
+        />
         <ProjectCard
           src="/luban.gif"
-          title="Luban Workshop"
+          title="Lonnya Store"
           description="Back office de Luban Workshop une plateforme pour la gestion des courses, documents, evenements,etc en utilisant php , mysql , etc. "
+        />
+
+        <ProjectCard
+          src="/blog.gif"
+          title="web"
+          description="un site de presentation d'une entreprise (Portfolio pour entreprise ) avec un blog integres ,etc en utilisant php ,laravel, mysql , etc. "
         />
       </div>
     </div>
