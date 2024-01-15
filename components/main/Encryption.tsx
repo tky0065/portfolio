@@ -45,7 +45,7 @@ const Encryption = () => {
         </div>
       </div>
       <div className="absolute z-[20] bottom-[10px] px-[5px]">
-        <div className="cursive text-[30px] font-medium text-center text-gray-300">
+        <div className=" text-[20px] font-medium text-center text-gray-300">
           Sécurisez vos données avec des sytemes d&apos; authentification robus
         </div>
       </div>
