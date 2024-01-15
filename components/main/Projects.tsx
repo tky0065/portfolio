@@ -17,7 +17,7 @@ const Projects = () => {
           description="Mise en place d'un application mobile de lecture biblique en utilisant Flutter et Firebase. un syteme d'authentications , les statisque de lecture un quiz"
         />
         <ProjectCard
-          src="/CardImage.png"
+          src="/lms.gif"
           title="Faso elearning"
           description="Une plateforme web de e-learning en utilisant Next.js Tailwins , next Auth, shadcn ui,  prisma , stripe etcs. un syteme d'authentications, avec des statisque sur les etudiant "
         />
