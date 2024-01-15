@@ -86,6 +86,7 @@ const Skills = () => {
             autoPlay
             src="/cards-video.webm"
           />
+         
         </div>
       </div>
     </section>
