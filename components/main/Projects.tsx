@@ -26,6 +26,11 @@ const Projects = () => {
           title="Portfolio"
           description="Un Portfolio en utilisant Next.js Tailwindcss , next Auth, shadcn ui,  prisma. qui permet de mettre en evidance mes comptence et mes experiences."
         />
+        <ProjectCard
+          src="/luban.gif"
+          title="Luban Workshop"
+          description="Back office de Luban Workshop une plateforme pour la gestion des courses, documents, evenements,etc en utilisant php , mysql , etc. "
+        />
       </div>
     </div>
   );
