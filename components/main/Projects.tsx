@@ -31,7 +31,7 @@ const Projects = () => {
         <ProjectCard
           src="/g-stock.gif"
           title="Luban Workshop"
-          description="Une plateforme de gestion des stock , des materiels et de matiers d ouevres pour Afrik Lonnya . develepper en java spring boot et angular "
+          description="Une plateforme de gestion des stock , des materiels et de matiers d' ouevres pour Afrik Lonnya . develepper en java spring boot et angular "
         />
         <ProjectCard
           src="/luban.gif"
