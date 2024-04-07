@@ -1,14 +1,7 @@
-import React from "react";
-import {
-  RxDiscordLogo,
-  RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo,
-} from "react-icons/rx";
+import { RxDiscordLogo, RxGithubLogo } from "react-icons/rx";
 
-import { FaYoutube } from "react-icons/fa";
 import Link from "next/link";
+import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -21,7 +14,6 @@ const Footer = () => {
             <Link
               href="https://www.youtube.com/channel/UCV9N2jBpmNtp_aoxP89YLLQ"
               target="_blank"
-              
             >
               <p className="flex flex-row items-center my-[15px] cursor-pointer">
                 <FaYoutube />
@@ -58,13 +50,13 @@ const Footer = () => {
               </span>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">tky0065@gmail.com</span>
+              <span className="text-[15px] ml-[6px]">enokdev.bf@gmail.com</span>
             </p>
           </div>
         </div>
 
         <div className="mb-[20px] text-[15px] text-center">
-          &copy; Enok Dev 2024 Inc. Inc. Tous droits réservés
+          &copy; Enok Dev 2024 Inc.Tous droits réservés
         </div>
       </div>
     </div>
