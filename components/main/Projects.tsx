@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectCard from "../sub/ProjectCard";
 
 const Projects = () => {
@@ -29,12 +28,12 @@ const Projects = () => {
       </div>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/g-stock.gif"
+          src="/luban.gif"
           title="Luban Workshop"
           description="Une plateforme de gestion des stock , des materiels et de matiers d' ouevres pour Afrik Lonnya . develepper en java spring boot et angular "
         />
         <ProjectCard
-          src="/luban.gif"
+          src="/g-stock.gif"
           title="Lonnya Store"
           description="Back office de Luban Workshop une plateforme pour la gestion des courses, documents, evenements,etc en utilisant php , mysql , etc. "
         />
