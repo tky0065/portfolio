@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#030014] `}>
+      <body className={`${inter.className} bg-[#030014] ml-1  mr-5`}>
         <StarsCanvas />
         <Navbar />
         {children}
